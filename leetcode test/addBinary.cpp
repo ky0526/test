@@ -1,3 +1,11 @@
+/*
+ * @Author: KYXxxovo 20236515544@qq.ccom
+ * @Date: 2024-03-11 16:58:52
+ * @LastEditors: KYXxxovo 20236515544@qq.ccom
+ * @LastEditTime: 2024-03-11 23:32:11
+ * @FilePath: \C C++\leetcode test\addBinary.cpp
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -73,11 +81,6 @@ int main()
   b = "1";
   result = s.addBinary(a, b);
   cout << "Result: " << result << endl; // 输出：1011
-
-  a = "100";
-  b = "100";
-  result = s.addBinary(a, b);
-  cout << "Result: " << result << endl; // 输出：1000
 
   return 0;
 }
